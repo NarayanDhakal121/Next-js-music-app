@@ -1,0 +1,85 @@
+{
+    "Courses":[
+        {
+          "id": 1,
+          "title": "Fundamentals of Music Theory",
+          "slug": "fundamentals-of-music-theory",
+          "description": "Learn the basics of music theory, including scales, chords, and progressions.",
+          "price": 99.99,
+          "instructor": "John Doe",
+          "isFeatured": true,
+          "image": "music_theory_course_image.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Jazz Improvisation",
+          "slug": "jazz-improvisation",
+          "description": "Explore the art of jazz improvisation with our expert saxophonist.",
+          "price": 149.99,
+          "instructor": "Jane Smith",
+          "isFeatured": false,
+          "image": "jazz_impro_course_image.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Rock Guitar Mastery",
+          "slug": "rock-guitar-mastery",
+          "description": "Master the electric guitar with techniques from rock legends.",
+          "price": 199.99,
+          "instructor": "Eddie Van",
+          "isFeatured": true,
+          "image": "rock_guitar_course_image.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Classical Piano Essentials",
+          "slug": "classical-piano-essentials",
+          "description": "Dive into the world of classical piano and learn from the maestros.",
+          "price": 129.99,
+          "instructor": "Ludwig B.",
+          "isFeatured": false,
+          "image": "classical_piano_course_image.jpg"
+        },
+        {
+          "id": 5,
+          "title": "Electronic Music Production",
+          "slug": "electronic-music-production",
+          "description": "Create your own electronic music tracks with this comprehensive course.",
+          "price": 159.99,
+          "instructor": "DJ Beat",
+          "isFeatured": false,
+          "image": "electronic_music_course_image.jpg"
+        },
+        {
+          "id": 6,
+          "title": "Vocal Performance Techniques",
+          "slug": "vocal-performance-techniques",
+          "description": "Enhance your vocal abilities with professional training and techniques.",
+          "price": 119.99,
+          "instructor": "Maria C.",
+          "isFeatured": true,
+          "image": "vocal_tech_course_image.jpg"
+        },
+        {
+          "id": 7,
+          "title": "Music Business 101",
+          "slug": "music-business-101",
+          "description": "Understand the ins and outs of the music industry and how to navigate it.",
+          "price": 89.99,
+          "instructor": "Clive D.",
+          "isFeatured": false,
+          "image": "music_business_course_image.jpg"
+        },
+        {
+          "id": 8,
+          "title": "Songwriting Secrets",
+          "slug": "songwriting-secrets",
+          "description": "Unlock the secrets of great songwriting with this in-depth course.",
+          "price": 139.99,
+          "instructor": "Bob Dylan",
+          "isFeatured": true,
+          "image": "songwriting_course_image.jpg"
+        }
+      
+    ]
+}
