@@ -27,7 +27,7 @@ export const MenuItem = ({
   return (
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
-        transition={{ duration: 0.3 }}
+        transition={{ duration: 0.6 }}
         className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
       >
         {item}
@@ -38,7 +38,7 @@ export const MenuItem = ({
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={transition}
         >
-          {active === item && (
+          {active === item && children &&(
             <div className="absolute top-[calc(100%_+_1.7rem)] left-1/2 transform -translate-x-1/2">
               <motion.div
                 transition={transition}
@@ -89,7 +89,7 @@ export const ProductItem = ({
   src: string;
 }) => {
   return (
-    <Link href={href} className="flex space-x-2">
+    <Link href={href} className="flex space-x-7">
       <Image
         src={src}
         width={140}

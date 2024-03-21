@@ -13,8 +13,9 @@ export const metadata: Metadata = {
 export default function RootLayout({children}:Readonly<{children:React.ReactNode}>
 ) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={inter.className}>
+        <div className="relative w-full flex item-center"></div>
        <Navbar/>
         {children}
         </body>

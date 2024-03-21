@@ -17,7 +17,7 @@
           "description": "Explore the art of jazz improvisation with our expert saxophonist.",
           "price": 149.99,
           "instructor": "Jane Smith",
-          "isFeatured": false,
+          "isFeatured": true,
           "image": "jazz_impro_course_image.jpg"
         },
         {
@@ -37,7 +37,7 @@
           "description": "Dive into the world of classical piano and learn from the maestros.",
           "price": 129.99,
           "instructor": "Ludwig B.",
-          "isFeatured": false,
+          "isFeatured": true,
           "image": "classical_piano_course_image.jpg"
         },
         {
